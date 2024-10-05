@@ -794,9 +794,14 @@ section,
 
 @media (min-width: 1024px) {
 
+    .hero img {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Cubre el contenedor sin distorsionar la imagen */
+ }     
   .hero h2,
   .hero p {
-    max-width: 40%;
+    max-width: 60%;
   }
 }
 
