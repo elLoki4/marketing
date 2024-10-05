@@ -3,4 +3,4 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
-Disallow: https://netxusdream.com.ar/portfolio-details.html
+Disallow: https://netxusdream.com.ar/
