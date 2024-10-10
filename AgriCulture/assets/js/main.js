@@ -48,7 +48,7 @@
   /**
    * Mobile nav toggle
    */
-  const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
+  */const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
 
   function mobileNavToogle() {
     document.querySelector('body').classList.toggle('mobile-nav-active');
@@ -59,7 +59,7 @@
 
   /**
    * Hide mobile nav on same-page/hash links
-   */
+   *//*
   document.querySelectorAll('#navmenu a').forEach(navmenu => {
     navmenu.addEventListener('click', () => {
       if (document.querySelector('.mobile-nav-active')) {
@@ -68,7 +68,7 @@
     });
 
   });
-
+/*
   /**
    * Toggle mobile nav dropdowns
    */
